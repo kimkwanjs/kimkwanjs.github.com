@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:80px;
+  background:#111;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4c000000,endColorstr=#4c000000);
+  zoom: 1;
+  box-shadow: 2px 2px 2px #bababa;
+  z-index:999;
+}
+.headerInnerBox{
+  position:relative;
+  max-width:700px;
+  min-width:320px;
+  margin:0 auto;
+}
+.logo{
+  position:absolute;
+  left:40px;
+  height:80px;
+  font-weight:bold;
+  color:#fff;
+  line-height:80px;
+  cursor: pointer;
+}
+.logo:hover{
+  color:crimson;
+}
+nav{
+  position:absolute;
+  right:40px;
+}
+nav>span{
+  height:80px;
+  line-height:80px;
+  font-size:15px;
+  color:#fff;
+}
+
+@media (max-width: 720px) {
+  .headerInnerBox{
+    position:relative;
+    max-width:500px;
+    min-width:320px;
+    margin:0 auto;
+  }
+}

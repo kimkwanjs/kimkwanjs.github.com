@@ -4,7 +4,6 @@
   width:420px;
   min-width:320px;
   height:320px;
-  padding:10px;
   background-repeat: no-repeat;
   background-image: linear-gradient(to right, #000 100%, #000 100%),
                     linear-gradient(to bottom, #000 100%, #000 100%),
@@ -87,6 +86,7 @@
     min-width:320px;
     height:260px;
     padding:0px;
+    margin:6% auto;
   }
   .textBox{
     padding:2.4em 0 0 1em;

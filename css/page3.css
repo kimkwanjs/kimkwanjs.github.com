@@ -29,6 +29,7 @@
 }
 @media (max-width: 720px) {
   .page3 .title{
+    margin-top:30%;
     font-size:65px;
   }
   .page3 .cfImg img{

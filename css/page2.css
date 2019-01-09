@@ -26,14 +26,18 @@
 .pfImg{
   text-align:center
 }
-
-.pfImg>img{
+.pfImg img{
   width:82%;
 }
 @media (max-width: 720px) {
   .page2 .title{
     line-height:1.5em;
-    font-size:38px;
+    font-size:32px;
   }
+
+  .page2 .pfImg img{
+    width:80%;
+  }
+
 }
 

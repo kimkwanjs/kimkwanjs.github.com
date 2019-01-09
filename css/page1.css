@@ -93,3 +93,12 @@
     font-size:28px;
   }
 }
+@media (max-width: 320px) {
+    .introBox{
+      background:none;
+    }
+    .textBox{
+      padding:2.4em 0 0 1em;
+      font-size:28px;
+    }
+  }

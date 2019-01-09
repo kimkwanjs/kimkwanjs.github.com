@@ -219,6 +219,7 @@ body{
     height:100%;
     overflow:hidden;
     display: block;
+
   }
 
   .page{
@@ -227,6 +228,7 @@ body{
     opacity: 1;
     margin:16% 0 0 0;
     transform: translateY(0px);
+    padding:3%;
   }
   
   .pageShow{

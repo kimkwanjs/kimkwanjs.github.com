@@ -247,7 +247,10 @@ body{
     padding:3%;
     overflow: hidden;
   }
-
+  
+  .txt{
+    font-size:14px;
+  }
   .slideNumber{
     position:absolute;
     top:0px;

@@ -29,8 +29,9 @@
 }
 @media (max-width: 720px) {
   .page3 .title{
-    margin-top:30%;
-    font-size:65px;
+    text-align:left;
+    margin:3% 0 0 1%;
+    font-size:70px;
   }
   .page3 .cfImg img{
     width:56%;

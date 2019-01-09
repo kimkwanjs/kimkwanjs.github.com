@@ -31,13 +31,17 @@
 }
 @media (max-width: 720px) {
   .page2 .title{
+    margin-top:3.2rem;
     line-height:1.5em;
-    font-size:32px;
+    font-size:34px !important;
   }
 
   .page2 .pfImg img{
     width:80%;
   }
 
+  .page2 li{
+    font-size:4vw;
+  }
 }
 

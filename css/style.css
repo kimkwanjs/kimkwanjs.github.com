@@ -4,6 +4,7 @@
 @import url(page2.css);
 @import url(page3.css);
 @import url(page4.css);
+@import url(page5.css);
 @import url(header.css);
 
 *{
@@ -311,7 +312,7 @@ body{
     padding-top:15px;
   }
   
-  .page4>div{
+  .page5>div{
     transform: translate(-50%,-50%)
   }
 

@@ -23,13 +23,30 @@ $(document).ready(function(){
     pager:false,
     onSliderLoad: function(currentIndex){
       let current = currentIndex + 1
-      // $('.slideNumber2').text(`${current} / ${slideNumber}`)
+      // $('.slideNumber1').text(`${current} / ${slideNumber}`)
       $('.slideNumber2').text(current + '/' + this.getSlideCount())
     },
     onSlideAfter: function($slideElement, oldIndex, newIndex){
       let current = newIndex + 1
-      // $('.slideNumber2').text(`${current} / ${slideNumber}`)
+      // $('.slideNumber1').text(`${current} / ${slideNumber}`)
       $('.slideNumber2').text(current + '/' + this.getSlideCount())
+    }
+  });
+
+  $('.slide3').bxSlider({
+    mode:'horizontal',
+    speed:500,
+    controls:true,
+    pager:false,
+    onSliderLoad: function(currentIndex){
+      let current = currentIndex + 1
+      // $('.slideNumber2').text(`${current} / ${slideNumber}`)
+      $('.slideNumber3').text(current + '/' + this.getSlideCount())
+    },
+    onSlideAfter: function($slideElement, oldIndex, newIndex){
+      let current = newIndex + 1
+      // $('.slideNumber2').text(`${current} / ${slideNumber}`)
+      $('.slideNumber3').text(current + '/' + this.getSlideCount())
     }
   });
 
